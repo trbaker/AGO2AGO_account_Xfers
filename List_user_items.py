@@ -4,7 +4,7 @@
 from arcgis import GIS
 itemTypes=''
 targetUser='Esri_GeoInquiry_Grade4'
-gis = GIS("https://education.maps.arcgis.com", "tbaker", "naish101")
+gis = GIS("https://education.maps.arcgis.com", "", "")
 
 print("List user items by folder (F) or file type (T)?")
 val = input("F or T: ")
