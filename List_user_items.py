@@ -1,6 +1,6 @@
 
 # Use admin logins on both organizations
-gis = GIS("https://education.maps.arcgis.com", "", "")
+gis = GIS("https://education.maps.arcgis.com", "tbaker", "naish101")
 
 from arcgis import GIS
 itemTypes=''
