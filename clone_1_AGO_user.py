@@ -22,7 +22,7 @@ for folder in sourceUserObj.folders:
         clItem = source.content.get(i.id)
         try:
             target.content.clone_items([clItem],
-                                    folder=i.title,
+                                    search_existing_items=False,
                                     owner=targetUser
                                     )
         except:
